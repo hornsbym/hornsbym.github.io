@@ -15,10 +15,12 @@ h1{
 
 p1{
     color: ivory;
-    margin: 75%;
     font-size: 20pt;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: orangered;
+    margin: 15%;
+    height: 50px;
+    width: 20%;
 }
 
 h2{
