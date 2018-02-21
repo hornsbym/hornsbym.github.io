@@ -13,10 +13,14 @@ h1{
     text-align: center;
 }
 
+nav{
+   padding: none; 
+}
+
 ul{
     list-style-type: none; 
-    margin: 0; 
-    padding: 0; 
+    margin: none; 
+    padding: none; 
     background-color: orangered;
 }
 
