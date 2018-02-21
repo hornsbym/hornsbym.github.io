@@ -7,11 +7,18 @@ h1{
     color: orangered; 
     font-size: 300%; 
     font-family: Verdana, Geneva, Tahoma, sans-serif; 
-    font-weight: normal;
-    text-align: left; 
+    font-weight: normal; 
     padding-bottom: 10px; 
     margin-top: 20px; 
     text-align: center;
+}
+
+p1{
+    color: ivory;
+    margin: 75%;
+    font-size: 20pt;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: orangered;
 }
 
 h2{
@@ -68,13 +75,13 @@ a:link, a:visited{
     display: inline-block; 
     background-color: orangered; 
     padding: 14px 28px; 
-    color: white; 
+    color: ivory; 
     text-decoration: none;
 }
 
 a:hover{
     display:inline-block; 
-    background-color: white; 
+    background-color: ivory; 
     padding: 14px 28px; 
     color: black; 
     text-decoration: none;
