@@ -20,14 +20,11 @@ h1{
 }
 
 p1{
-    color: ivory;
+    color: black;
     font-size: 20pt;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: orangered;
     margin-right: 15%;
     margin-left: 15%;
-    height: 50px;
-    width: 20%;
 }
 
 h2{
@@ -150,4 +147,11 @@ p.description{
     padding-bottom: 20px; 
     margin-right: 10%; 
     padding-top: none;
+}
+
+.inlineBlock{
+    display: inline-block;
+    width: 150px;
+    height: 75px;
+    margin: 10px;
 }
