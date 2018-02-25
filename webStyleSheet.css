@@ -19,12 +19,6 @@ h1{
     text-align: center;
 }
 
-p1{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin-right: auto;
-    margin-left: auto;
-}
-
 h2{
     color: black; 
     font-size: 250%; 
@@ -148,9 +142,11 @@ p.description{
 }
 
 .inlineBlock{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     display: inline-block;
     width: 80%;
     height: 25%;
-    align-self: center;
-    border: 2px solid orangered;
+    margin: auto;
+    padding: 3px;
+    border: 3px solid orangered;
 }
