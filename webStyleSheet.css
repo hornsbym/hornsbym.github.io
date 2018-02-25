@@ -168,7 +168,14 @@ img.screenshot{
 .projectHeadings{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 200%;
-    color: orangered;
+    color: black;
     margin-left: 15%;
     margin-bottom: 15px;
+}
+
+.projectBlock{
+    display: block;
+    width: 100%;
+    height: auto;
+    background-color: orangered;
 }
