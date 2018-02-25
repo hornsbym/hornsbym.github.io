@@ -53,7 +53,7 @@ nav{
    width: 100%; 
    padding: none; 
    position: fixed;
-   
+   margin:none;
 }
 
 ul{
