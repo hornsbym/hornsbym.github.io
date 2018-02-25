@@ -172,6 +172,7 @@ img.screenshot{
     color: white;
     margin-left: 15%;
     margin-bottom: 15px;
+    padding-top: 10px;
 }
 
 .projectHeadingsBlack{
@@ -180,6 +181,7 @@ img.screenshot{
     color: black;
     margin-left: 15%;
     margin-bottom: 15px;
+    padding-top: 10px;
 }
 
 .projectBlock{
