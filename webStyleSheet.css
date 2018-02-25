@@ -51,6 +51,7 @@ h4{
 
 nav{
    padding: none; 
+   position: fixed;
 }
 
 ul{
