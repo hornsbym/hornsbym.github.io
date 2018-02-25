@@ -151,7 +151,6 @@ p.description{
     display: inline-block;
     width: 80%;
     height: 25%;
-    margin-right: auto;
-    margin-left: auto;
-    border: 5px solid orangered;
+    align-self: center;
+    border: 2px solid orangered;
 }
