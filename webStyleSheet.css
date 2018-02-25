@@ -141,12 +141,9 @@ p.description{
     padding-top: none;
 }
 
-.inlineBlock{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    display: inline-block;
-    width: 80%;
-    height: 25%;
+.bio{
     margin: auto;
-    padding: 3px;
+    width: 50%;
     border: 3px solid orangered;
+    padding: 5px;
 }
