@@ -159,8 +159,8 @@ img.bioPic{
     padding-bottom: 15px;
 }
 
-img.screenShot{
+img.screenshot{
     display:block;
-    margin-left: 30px;
+    padding-left: 30px;
     padding-bottom: 15px;
 }
