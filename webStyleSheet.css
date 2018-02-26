@@ -120,7 +120,8 @@ a.orangeProject{
     text-decoration: none;  
     font-size:200%;
     margin-left: 15%;
-    border-bottom: 3px solid ivory;
+    margin-bottom:15px;
+    border-bottom: 3px solid black;
     padding: none;
 }
 
@@ -133,6 +134,7 @@ a.orangeProject:hover{
     font-family:Verdana, Geneva, Tahoma, sans-serif; 
     font-size:200%;
     margin-left: 15%;
+    margin-bottom:15px;
     border-bottom: 3px solid black;
     padding: none;
 }
@@ -146,6 +148,7 @@ a.whiteProject{
     text-decoration: none;  
     font-size:200%;
     margin-left: 15%;
+    margin-bottom:15px;
     border-bottom: 3px solid black;
     padding: none;
 }
@@ -159,7 +162,8 @@ a.whiteProject:hover{
     font-family:Verdana, Geneva, Tahoma, sans-serif; 
     font-size:200%;
     margin-left: 15%;
-    border-bottom: 3px solid ivory;
+    margin-bottom:15px;
+    border-bottom: 3px solid black;
     padding: none;
 }
 
