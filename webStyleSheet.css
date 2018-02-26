@@ -78,8 +78,7 @@ li.navBar{
 a.navBar, a.navBar:visited{
     display: inline-block; 
     background-color: orangered; 
-    /*padding: 14px 28px; */
-    padding: 14px 10%;
+    padding: 14px 28px;
     color: ivory; 
     text-decoration: none;
 }
@@ -215,6 +214,14 @@ img.screenshot{
     width: 100%;
     height: auto;
     background-color: orange;
+    border-bottom: 3px solid black;
+}
+
+.whiteProjectBlock{
+    display: block;
+    width: 100%;
+    height: auto;
+    background-color: white;
     border-bottom: 3px solid black;
 }
 
