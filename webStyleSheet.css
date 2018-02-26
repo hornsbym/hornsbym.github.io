@@ -79,7 +79,7 @@ a.navBar, a.navBar:visited{
     display: inline-block; 
     background-color: orangered; 
     /*padding: 14px 28px; */
-    *padding: 14px 10%;
+    padding: 14px 10%;
     color: ivory; 
     text-decoration: none;
 }
