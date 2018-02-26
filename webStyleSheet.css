@@ -215,6 +215,7 @@ img.screenshot{
     width: 100%;
     height: auto;
     background-color: orange;
+    border-bottom: 3px solid black;
 }
 
 .whiteStoryPreview{
