@@ -137,6 +137,32 @@ a.orangeProject:hover{
     padding: none;
 }
 
+a.whiteProject{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    display: inline-block; 
+    background-color: ivory; 
+    margin-top: 10px;
+    color: black; 
+    text-decoration: none;  
+    font-size:100%;
+    margin-left: 15%;
+    border-bottom: 3px solid black;
+    padding: none;
+}
+
+a.whiteProject:hover{
+    display: inline-block; 
+    background-color: orange; 
+    margin-top: 10px;
+    color: ivory; 
+    text-decoration: none; 
+    font-family:Verdana, Geneva, Tahoma, sans-serif; 
+    font-size:100%;
+    margin-left: 15%;
+    border-bottom: 3px solid ivory;
+    padding: none;
+}
+
 p.story{
     font-size: 20px;
     font-weight: normal; 
