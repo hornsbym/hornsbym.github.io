@@ -189,8 +189,8 @@ p.description{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
-    border: 3px solid orangered;
+    width: 80%;
+    /*border: 3px solid orangered;*/
     padding: 5px;
 }
 
