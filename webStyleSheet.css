@@ -111,14 +111,15 @@ td{
     padding:10px;
 }
 
-a.story{
+a.orangeProject{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     display: inline-block; 
-    background-color: ivory; 
-    padding: 10px 20px; 
-    color: orangered; 
-    text-decoration: none; 
-    font-family:Verdana, Geneva, Tahoma, sans-serif; 
-    font-size:137%;
+    background-color: orange; 
+    margin-top: 10px;
+    color: ivory; 
+    text-decoration: none;  
+    font-size:200%;
+    margin-left: 15%;
 }
 
 a.story:hover{
