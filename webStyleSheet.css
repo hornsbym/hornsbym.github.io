@@ -231,3 +231,12 @@ img.screenshot{
     height: auto;
     background-color: orange;
 }
+
+.whiteStoryPreview{
+    display: block;
+    width: 70%;
+    background-color: ivory;
+    margin-left: 15%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 175%;
+}
