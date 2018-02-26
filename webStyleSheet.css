@@ -118,18 +118,19 @@ a.orangeProject{
     margin-top: 10px;
     color: ivory; 
     text-decoration: none;  
-    font-size:200%;
+    font-size:100%;
     margin-left: 15%;
 }
 
-a.story:hover{
+a.orangeProject:hover{
     display: inline-block; 
-    background-color: orangered; 
-    padding: 10px 20px; 
-    color: ivory; 
+    background-color: ivory; 
+    margin-top: 10px;
+    color: orange; 
     text-decoration: none; 
     font-family:Verdana, Geneva, Tahoma, sans-serif; 
-    font-size:137%;
+    font-size:100%;
+    margin-left: 15%;
 }
 
 p.story{
