@@ -55,6 +55,7 @@ nav{
    padding: none; 
    position: fixed;
    margin:none;
+   top: 0;
 }
 
 ul{
