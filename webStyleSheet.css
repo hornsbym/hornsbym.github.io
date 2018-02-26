@@ -240,3 +240,12 @@ img.screenshot{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 175%;
 }
+
+.orangeStoryPreview{
+    display: block;
+    width: 70%;
+    background-color: orange;
+    margin-left: 15%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 175%;
+}
