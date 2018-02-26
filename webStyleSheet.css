@@ -75,7 +75,7 @@ li{
     background-color: orangered;
 }
 
-a:link, a:visited{
+a.navBar, a.navBar:visited{
     display: inline-block; 
     background-color: orangered; 
     padding: 14px 28px; 
@@ -83,7 +83,7 @@ a:link, a:visited{
     text-decoration: none;
 }
 
-a:hover{
+a.navBar:hover{
     display:inline-block; 
     background-color: ivory; 
     padding: 14px 28px; 
@@ -118,7 +118,7 @@ a.orangeProject{
     margin-top: 10px;
     color: ivory; 
     text-decoration: none;  
-    font-size:100%;
+    font-size:200%;
     margin-left: 15%;
     border-bottom: 3px solid ivory;
     padding: none;
@@ -131,7 +131,7 @@ a.orangeProject:hover{
     color: black; 
     text-decoration: none; 
     font-family:Verdana, Geneva, Tahoma, sans-serif; 
-    font-size:100%;
+    font-size:200%;
     margin-left: 15%;
     border-bottom: 3px solid black;
     padding: none;
@@ -144,7 +144,7 @@ a.whiteProject{
     margin-top: 10px;
     color: black; 
     text-decoration: none;  
-    font-size:100%;
+    font-size:200%;
     margin-left: 15%;
     border-bottom: 3px solid black;
     padding: none;
@@ -157,7 +157,7 @@ a.whiteProject:hover{
     color: ivory; 
     text-decoration: none; 
     font-family:Verdana, Geneva, Tahoma, sans-serif; 
-    font-size:100%;
+    font-size:200%;
     margin-left: 15%;
     border-bottom: 3px solid ivory;
     padding: none;
