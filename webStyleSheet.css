@@ -184,6 +184,7 @@ p.description{
 }
 
 .bio{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     display: block;
     margin-left: auto;
     margin-right: auto;
