@@ -94,7 +94,7 @@ a.navBar:hover{
 a.orangeProject{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     display: inline-block; 
-    background-color: orange; 
+    background-color: orangered; 
     margin-top: 10px;
     color: black; 
     text-decoration: none;  
@@ -109,7 +109,7 @@ a.orangeProject{
 
 a.orangeProject:hover{
     display: inline-block; 
-    background-color: ivory; 
+    background-color: orange; 
     margin-top: 10px;
     color: black; 
     text-decoration: none; 
@@ -126,7 +126,7 @@ a.orangeProject:hover{
 a.whiteProject{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     display: inline-block; 
-    background-color: ivory; 
+    background-color: orange; 
     margin-top: 10px;
     color: black; 
     text-decoration: none;  
@@ -141,7 +141,7 @@ a.whiteProject{
 
 a.whiteProject:hover{
     display: inline-block; 
-    background-color: orange; 
+    background-color: ivory; 
     margin-top: 10px;
     color: black; 
     text-decoration: none; 
