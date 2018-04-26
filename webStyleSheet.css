@@ -242,7 +242,7 @@ img.screenshot{
     margin-bottom: 20px;
 }
 
-.projectDescription{
+p.projectDescription{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-family: 150%;
     width:50%;
