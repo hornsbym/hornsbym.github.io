@@ -1,94 +1,106 @@
 <!DOCTYPE html>
 <HTML>
+
 <Head>
     <link rel="stylesheet" href="webStyleSheet.css">
     <Title>Mitchell Hornsby</Title>
     <meta charset="UTF-8">
-    <meta name="description" content="Mitchell Hornsby's online portfolio. Showcases both programming and creative writing projects." >
+    <meta name="description" content="Mitchell Hornsby's online portfolio. Showcases both programming and creative writing projects.">
 </Head>
 
 <Body>
     <nav>
         <ul class="navBar" style="text-align:left">
-            <li class="navBar"><a class="navBar" href="#home">HOME</a></li>
-            <li class="navBar"><a class="navBar" href="#programming">PROGRAMMING</a></li>
-            <li class="navBar"><a class="navBar" href="#writing">WRITING</a></li>
-            <li class="navBar"><a class="navBar" href="#contact">CONTACT</a></li>
-            <li class="navBar" style="float:right"><a class="navBar" target="_blank" href="MitchellHornsbyResume.pdf">RESUME</a></li>
-            <li class="navBar" style="float:right"><a class="navBar" target="_blank" href="https://www.linkedin.com/in/mitchell-hornsby-3b4690153/">LINKEDIN</a></li>
+            <li class="navBar">
+                <a class="navBar" href="#home">HOME</a>
+            </li>
+            <li class="navBar">
+                <a class="navBar" href="#programming">PROGRAMMING</a>
+            </li>
+            <li class="navBar">
+                <a class="navBar" href="#writing">WRITING</a>
+            </li>
+            <li class="navBar">
+                <a class="navBar" href="#contact">CONTACT</a>
+            </li>
+            <li class="navBar" style="float:right">
+                <a class="navBar" target="_blank" href="./src/pdf/MitchellHornsbyResume.pdf">RESUME</a>
+            </li>
+            <li class="navBar" style="float:right">
+                <a class="navBar" target="_blank" href="https://www.linkedin.com/in/mitchell-hornsby-3b4690153/">LINKEDIN</a>
+            </li>
         </ul>
     </nav>
 
     <h1 id="home">Mitchell Hornsby</h1>
-        <img class="bioPic" src="bioPic.jpg" alt="Mitchell Hornsby">
-        <div class="bio">
-            <ul>
-                <li>Washington and Lee University, Class of 2019.</li>
-                <li>Computer Science major with Creative Writing minor.</li>
-                <li>Seeking summer internship in software devlopment.</li>
-                <li>Interested in working in the video game industry.</li>
-                <li>I created this website from scratch using HTML and CSS.</li>
-            </ul>
-        </div>
-    
-    <div class="projectBlock" style="background-color: white;">
-        <h2 id="programming">Programming Projects</h2>  
+    <img class="bioPic" src="./src/jpg/bioPic.jpg" alt="Mitchell Hornsby">
+    <div class="bio">
+        <ul>
+            <li>Washington and Lee University, Class of 2019.</li>
+            <li>Computer Science major with Creative Writing minor.</li>
+            <li>Seeking summer internship in software devlopment.</li>
+            <li>Interested in working in the video game industry.</li>
+            <li>I created this website from scratch using HTML and CSS.</li>
+        </ul>
     </div>
-        <div class="projectBlock">
-            <a class="orangeProject" target="_blank" href="https://github.com/hornsbym/KnightFight">Knight Fight</a>
-            <img class="screenshot" src="knightFightPic.JPG" alt ="Knight Fight">
-        </div>
 
-        <div class="projectBlock">
-            <a class="orangeProject" target="_blank" href="https://github.com/hornsbym/Calculator">Calculator App</a>
-                <div>
-                    <img class="screenshot" src="calculatorAppPic.jpg" alt="Calculator app">
-                </div>
-        </div>
+    <div class="projectBlock" style="background-color: white;">
+        <h2 id="programming">Programming Projects</h2>
+    </div>
+    <div class="projectBlock">
+        <a class="orangeProject" target="_blank" href="https://github.com/hornsbym/KnightFight">Knight Fight</a>
+        <img class="screenshot" src="./src/jpg/knightFightPic.JPG" alt="Knight Fight">
+    </div>
 
-        <div class="projectBlock">
-            <a class="orangeProject" target="_blank" href="https://github.com/hornsbym/FreeCell">Free Cell</a>
-            <img class="screenshot" src="freeCellBeginningPic.jpg" alt="FreeCell initial setup">
-            <img class="screenshot" src="freeCellEndPic.jpg" alt="FreeCell after a few moves">
+    <div class="projectBlock">
+        <a class="orangeProject" target="_blank" href="https://github.com/hornsbym/Calculator">Calculator App</a>
+        <div>
+            <img class="screenshot" src="./src/jpg/calculatorAppPic.jpg" alt="Calculator app">
         </div>
+    </div>
+
+    <div class="projectBlock">
+        <a class="orangeProject" target="_blank" href="https://github.com/hornsbym/FreeCell">Free Cell</a>
+        <img class="screenshot" src="./src/jpg/freeCellBeginningPic.jpg" alt="FreeCell initial setup">
+        <img class="screenshot" src="./src/jpg/freeCellEndPic.jpg" alt="FreeCell after a few moves">
+    </div>
 
     <div class="whiteProjectBlock">
         <h3 id="writing">Creative Writing Projects</h3>
     </div>
-        <div class="whiteProjectBlock" style="border-bottom: 3px solid ivory">
-            <a class="whiteProject" target="_blank" href="timeStory.pdf">Man of Stone</a>
-            <div class="whiteStoryPreview">
-                <p>"I was a great man. Then I was dead. Now, I am stone. The city I founded passed the crown on to another as soon as they put me in the soil. Time does not stop, even when kings die." </p>
-            </div>
+    <div class="whiteProjectBlock" style="border-bottom: 3px solid ivory">
+        <a class="whiteProject" target="_blank" href="./src/pdf/timeStory.pdf">Man of Stone</a>
+        <div class="whiteStoryPreview">
+            <p>"I was a great man. Then I was dead. Now, I am stone. The city I founded passed the crown on to another as soon
+                as they put me in the soil. Time does not stop, even when kings die." </p>
         </div>
+    </div>
 
-        <div class="whiteProjectBlock" style="border-bottom: 3px solid ivory">
-            <a class="whiteProject" target="_blank" href="dialogueStory.pdf">Dialogue</a>
-            <div class="whiteStoryPreview">
-                <p>"The man climbed the three steps to his front porch. He noticed, through the frosted glass 
-                    on his front door, that the kitchen lights were still on. Great, he thought to himself. No use trying 
-                    to be quiet. 
-                    He opened his front door, not bothering to stifle the rattle of his keys against the door, 
-                    and then let it close loudly. After hanging his cap on the wall next to the door, he made his way 
-                    into the kitchen."  </p>
-            </div>
-        </div>    
-
-        <div class="whiteProjectBlock">
-            <a class="whiteProject" target="_blank" href="trapped.pdf">Trapped</a>
-            <div class="whiteStoryPreview">
-                <p>"I crash through the brush, swiping away vines and branches as I dash through the trees. 
-                    Despite the darkness of the forest, I manage to scramble forward. Not so far behind, dead 
-                    branches snap and falling trees thud. I’m not sure what could be big enough to topple trees, but I 
-                    don’t want to find out." </p>
-            </div>
+    <div class="whiteProjectBlock" style="border-bottom: 3px solid ivory">
+        <a class="whiteProject" target="_blank" href="./src/pdf/dialogueStory.pdf">Dialogue</a>
+        <div class="whiteStoryPreview">
+            <p>"The man climbed the three steps to his front porch. He noticed, through the frosted glass on his front door,
+                that the kitchen lights were still on. Great, he thought to himself. No use trying to be quiet. He opened
+                his front door, not bothering to stifle the rattle of his keys against the door, and then let it close loudly.
+                After hanging his cap on the wall next to the door, he made his way into the kitchen." </p>
         </div>
+    </div>
+
+    <div class="whiteProjectBlock">
+        <a class="whiteProject" target="_blank" href="./src/pdf/trapped.pdf">Trapped</a>
+        <div class="whiteStoryPreview">
+            <p>"I crash through the brush, swiping away vines and branches as I dash through the trees. Despite the darkness
+                of the forest, I manage to scramble forward. Not so far behind, dead branches snap and falling trees thud.
+                I’m not sure what could be big enough to topple trees, but I don’t want to find out." </p>
+        </div>
+    </div>
 
     <h4 id="contact">Contact Me</h4>
-        
-        <p class="contactInfo">Email: hornsbym19@mail.wlu.edu</p>
-        <p class="contactInfo">Phone: (404)831-5311</p>
-        <p class="contactInfo">Mailing Address: PO box 471 Lexington, VA. 24450</p>
+
+    <p class="contactInfo">Email: hornsbym19@mail.wlu.edu</p>
+    <p class="contactInfo">Phone: (404)831-5311</p>
+    <p class="contactInfo">Mailing Address: PO box 471 Lexington, VA. 24450</p>
 
 </Body>
+
 </HTML>

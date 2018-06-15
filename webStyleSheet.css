@@ -5,7 +5,7 @@
     }
 
 html, body{
-    background-color: ivory;
+    background-color: white;
     margin: 0;
     padding:0;
 }
@@ -67,7 +67,7 @@ ul.navBar{
 }
 
 li.navBar{
-    color: ivory; 
+    color: white; 
     font-size: 150%; 
     font-family: Verdana, Geneva, Tahoma, sans-serif; 
     text-align: center; 
@@ -79,13 +79,13 @@ a.navBar, a.navBar:visited{
     display: inline-block; 
     background-color: orangered; 
     padding: 14px 28px;
-    color: ivory; 
+    color: white; 
     text-decoration: none;
 }
 
 a.navBar:hover{
     display:inline-block; 
-    background-color: ivory; 
+    background-color: white; 
     padding: 14px 28px; 
     color: black; 
     text-decoration: none;
@@ -141,7 +141,7 @@ a.whiteProject{
 
 a.whiteProject:hover{
     display: inline-block; 
-    background-color: ivory; 
+    background-color: white; 
     margin-top: 10px;
     color: black; 
     text-decoration: none; 
@@ -218,7 +218,7 @@ img.screenshot{
 .whiteStoryPreview{
     display: block;
     width: 70%;
-    background-color: ivory;
+    background-color: white;
     margin-left: 15%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 175%;
