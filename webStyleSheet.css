@@ -1,252 +1,114 @@
-*{
+* {
+    background: transparent;
     border: 0;
+    margin: 0;
+    outline: 0;
     padding: 0;
-    margin: 0;
-    }
-
-html, body{
-    background-color: white;
-    margin: 0;
-    padding:0;
+    vertical-align: baseline;
 }
 
-h1{
-    color: black; 
-    font-size: 350%; 
-    font-family: Verdana, Geneva, Tahoma, sans-serif; 
-    font-weight: normal; 
-    padding-bottom: 10px; 
-    margin-top: 68px; 
+.bio {
     text-align: center;
 }
 
-h2{
-    color: black; 
-    font-size: 250%; 
-    font-family: Verdana, Geneva, Tahoma, sans-serif; 
-    font-weight: normal;
-    text-align: left; 
-    padding-bottom: 10px; 
-    margin-top: 25px; 
-}
-
-h3{
-    color: black; 
-    font-size: 250%; 
-    font-family: Verdana, Geneva, Tahoma, sans-serif; 
-    font-weight: normal;
-    text-align: left; 
-    padding-bottom: 10px; 
-    margin-top: 25px; 
-}
-
-h4{
-    color: black; 
-    font-size: 250%; 
-    font-family: Verdana, Geneva, Tahoma, sans-serif; 
-    font-weight: normal;
-    text-align: left; 
-    padding-bottom: 10px; 
-    margin-top: 25px; 
-}
-
-nav{
-   width: 100%; 
-   padding: none; 
-   position: fixed;
-   margin:none;
-   top: 0;
-}
-
-ul.navBar{
-    list-style-type: none; 
-    margin: none; 
-    padding: none; 
-    background-color: orangered;
-    border-bottom: 3px solid black;
-}
-
-li.navBar{
-    color: white; 
-    font-size: 150%; 
-    font-family: Verdana, Geneva, Tahoma, sans-serif; 
-    text-align: center; 
-    display: inline; 
-    background-color: orangered;
-}
-
-a.navBar, a.navBar:visited{
-    display: inline-block; 
-    background-color: orangered; 
-    padding: 14px 28px;
-    color: white; 
-    text-decoration: none;
-}
-
-a.navBar:hover{
-    display:inline-block; 
-    background-color: white; 
-    padding: 14px 28px; 
-    color: black; 
-    text-decoration: none;
-}
-
-a.orangeProject{
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    display: inline-block; 
-    background-color: orangered; 
-    margin-top: 10px;
-    color: black; 
-    text-decoration: none;  
-    font-size:200%;
-    margin-left: 15%;
-    margin-bottom:15px;
-    border-bottom: 3px solid black;
-    border-right: 3px solid black;
-    padding-right: 10px;
-    padding-left: 5px;
-}
-
-a.orangeProject:hover{
-    display: inline-block; 
-    background-color: orange; 
-    margin-top: 10px;
-    color: black; 
-    text-decoration: none; 
-    font-family:Verdana, Geneva, Tahoma, sans-serif; 
-    font-size:200%;
-    margin-left: 15%;
-    margin-bottom:15px;
-    border-bottom: 3px solid black;
-    border-right: 3px solid black;
-    padding-right: 10px;
-    padding-left: 5px;
-}
-
-a.whiteProject{
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    display: inline-block; 
-    background-color: orange; 
-    margin-top: 10px;
-    color: black; 
-    text-decoration: none;  
-    font-size:200%;
-    margin-left: 15%;
-    margin-bottom:15px;
-    border-bottom: 3px solid black;
-    border-right: 3px solid black;
-    padding-right: 10px;
-    padding-left: 5px;
-}
-
-a.whiteProject:hover{
-    display: inline-block; 
-    background-color: white; 
-    margin-top: 10px;
-    color: black; 
-    text-decoration: none; 
-    font-family:Verdana, Geneva, Tahoma, sans-serif; 
-    font-size:200%;
-    margin-left: 15%;
-    margin-bottom:15px;
-    border-bottom: 3px solid black;
-    border-right: 3px solid black;
-    padding-right: 10px;
-    padding-left: 5px;
-}
-
-p.story{
-    font-size: 20px;
-    font-weight: normal; 
-    padding-bottom: none; 
-    margin-left: 9%;
-}
-
-p.description{
-    font-size: 16px; 
-    font-family: Verdana, Geneva, Tahoma, sans-serif; 
-    margin-left: 10%; 
-    padding-bottom: 20px; 
-    margin-right: 10%; 
-    padding-top: none;
-}
-
-.bio{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+.bioItem {
     font-size: 150%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 55%;
-    border: 3px solid black;
-    padding: 5px 36px;
 }
 
-img.bioPic{
-    display:block;
-    margin-left:auto;
-    margin-right:auto;
-    width: 150px;
-    height: 225px;
-    margin-bottom: 15px;
-    border: 6px solid black;
-}
-
-img.screenshot{
-    display:block;
-    margin-left: 15%;
-    margin-bottom: 35px;
-    border: 5px solid black;
-}
-
-.projectBlock{
-    display: block;
-    width: 100%;
-    height: auto;
-    background-color: orange;
-    border-bottom: 3px solid black;
-}
-
-.whiteProjectBlock{
-    display: block;
-    width: 100%;
-    height: auto;
-    background-color: white;
-    border-bottom: 3px solid black;
-}
-
-.whiteStoryPreview{
-    display: block;
-    width: 70%;
-    background-color: white;
-    margin-left: 15%;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 175%;
-    padding-bottom: 35px;
-}
-
-.orangeStoryPreview{
-    display: block;
-    width: 70%;
-    background-color: orange;
-    margin-left: 15%;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 175%;
-    padding-bottom:35px;
-}
-
-.contactInfo{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 150%;
-    margin-left: 15%;
-    margin-bottom: 20px;
-}
-
-p.projectDescription{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-family: 150%;
-    width:50%;
-    padding:15px;
-    background-color:orange;
+#bioPic {
     border: 10px solid black;
+    border-radius: 50%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 2%;
+}
+
+.contactInfo {
+    font-size:120%;
+    margin-bottom:1%;
+}
+
+.content {
+    margin-left: 23%
+}
+
+h1 {
+    padding-top:2%;
+    margin-bottom:2%;
+    text-align: center;
+}
+
+h2 {
+    font-size: 200%;
+    margin-bottom: 4%;
+}
+
+.heading {
+    margin-bottom: 7%;
+    margin-left: 20%
+}
+
+#home {
+    font-size: 300%;
+}
+
+.link {
+    color: #1464F4;
+    font-size: 135%;
+}
+
+.navbar {
+    background-color: #97FFFF;
+    border-right: 1px solid black;
+    height: 100%;
+    list-style-type: none;
+    margin: 0;
+    overflow: auto;
+    padding: 0;
+    position: fixed;
+    width: 20%;
+}
+
+.navbarItem, .navbarLink {
+    display: block;
+}
+
+.navbarItem {
+    font-size: 25px;
+    padding-top:5%;
+    padding-bottom:5%;
+    padding-left: 10%;
+    vertical-align: auto;
+}
+
+.navbarItem:hover{
+    background-color: white;
+}
+
+.navbarLink{
+    color:black;
+    text-decoration: none;
+}
+
+.navbarLink:hover{
+    color: #1464F4;
+}
+
+.project {
+    margin-bottom: 3.5%;
+}
+
+.screenshot {
+    border: 5px solid #1464F4;
+    margin-top: 1%;
+}
+
+.section {
+    padding-bottom: 10%;
+}
+
+.storyPreview {
+    font-size:120%;
+    margin-top:1%;
 }
